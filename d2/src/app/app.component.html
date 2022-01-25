@@ -1,0 +1,10 @@
+<h1>Main Component</h1>
+<app-inventory [products]="catalog"
+(onAddProduct)="addToCart($event)">
+</app-inventory>
+<br><hr>
+<div class="col" *ngFor="let i of carts">
+  {{i.name}}, Quantity: {{i.count}}
+  <button (click)="removeFromCart(i.name)">Remove</button>
+</div>
+

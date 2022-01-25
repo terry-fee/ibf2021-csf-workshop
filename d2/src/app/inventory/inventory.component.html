@@ -1,0 +1,4 @@
+<div class="col" *ngFor="let item of products">
+  <span>{{item.name}}</span>
+  <button (click)="addToCart(item.name)">Add</button>
+</div>

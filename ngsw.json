@@ -1,0 +1,85 @@
+{
+  "configVersion": 1,
+  "timestamp": 1643188088501,
+  "index": "ibf2021-csf-workshop/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "ibf2021-csf-workshop/favicon.ico",
+        "ibf2021-csf-workshop/index.html",
+        "ibf2021-csf-workshop/main.b0451045b1573750.js",
+        "ibf2021-csf-workshop/manifest.webmanifest",
+        "ibf2021-csf-workshop/polyfills.e17b317482160d77.js",
+        "ibf2021-csf-workshop/runtime.60b866f71086e121.js",
+        "ibf2021-csf-workshop/styles.ef46db3751d8e999.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "ibf2021-csf-workshop/assets/cat-stock-med.jpg",
+        "ibf2021-csf-workshop/assets/cat-stock.jpg",
+        "ibf2021-csf-workshop/assets/icons/icon-128x128.png",
+        "ibf2021-csf-workshop/assets/icons/icon-144x144.png",
+        "ibf2021-csf-workshop/assets/icons/icon-152x152.png",
+        "ibf2021-csf-workshop/assets/icons/icon-192x192.png",
+        "ibf2021-csf-workshop/assets/icons/icon-384x384.png",
+        "ibf2021-csf-workshop/assets/icons/icon-512x512.png",
+        "ibf2021-csf-workshop/assets/icons/icon-72x72.png",
+        "ibf2021-csf-workshop/assets/icons/icon-96x96.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "ibf2021-csf-workshop/assets/cat-stock-med.jpg": "b7f37f8ef5f7cbc5cd9848cf18aadcaff4f830d2",
+    "ibf2021-csf-workshop/assets/cat-stock.jpg": "7bfea2f8f447c2858a285ba93914474b55c72d72",
+    "ibf2021-csf-workshop/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "ibf2021-csf-workshop/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "ibf2021-csf-workshop/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "ibf2021-csf-workshop/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "ibf2021-csf-workshop/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "ibf2021-csf-workshop/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "ibf2021-csf-workshop/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "ibf2021-csf-workshop/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "ibf2021-csf-workshop/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "ibf2021-csf-workshop/index.html": "9c006e3c6611f15a5c0e9b256788f15e8761ac3a",
+    "ibf2021-csf-workshop/main.b0451045b1573750.js": "c8c485dd466b671f32e3914c961601fae44d6df9",
+    "ibf2021-csf-workshop/manifest.webmanifest": "7b1254b5da0580f501761336eb0a5d24645a36b0",
+    "ibf2021-csf-workshop/polyfills.e17b317482160d77.js": "083b7ceaef6982e230f81433a4431e61d557c957",
+    "ibf2021-csf-workshop/runtime.60b866f71086e121.js": "e13adf38ff4b95bb69f3e2086e74c253b149a8dc",
+    "ibf2021-csf-workshop/styles.ef46db3751d8e999.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
